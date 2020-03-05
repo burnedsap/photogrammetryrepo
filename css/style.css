@@ -46,7 +46,11 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+.header-section span {
+		font-family: SGSemiBold;
+		font-size: 18px;
 
+}
 h1 {
 	font-family: SGSemiBold;
 }
