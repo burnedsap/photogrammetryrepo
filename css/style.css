@@ -1,0 +1,93 @@
+@font-face {
+font-family: SGLight;
+src: url("../fonts/SpaceGrotesk-Light.woff") format("woff");
+}
+
+@font-face {
+font-family: SGRegular;
+src: url("../fonts/SpaceGrotesk-Regular.woff") format("woff");
+}
+
+@font-face {
+font-family: SGBold;
+src: url("../fonts/SpaceGrotesk-Bold.woff") format("woff");
+}
+
+@font-face {
+font-family: SGSemiBold;
+src: url("../fonts/SpaceGrotesk-SemiBold.woff") format("woff");
+}
+
+@font-face {
+font-family: SGMedium;
+src: url("../fonts/SpaceGrotesk-Medium.woff") format("woff");
+}
+
+:root {
+	--w: 70%;
+	--mw: 1024px;
+}
+
+@media only screen and (max-width: 600px) {
+	
+}
+
+body {
+	width: 100%;
+	background-color: #ececec;
+	margin: 0;
+	color: black;
+}
+
+.header-section {
+	margin-top: 25px;
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-family: SGSemiBold;
+}
+
+p.intro {
+	font-family: SGRegular;
+}
+
+.index-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 3%;
+}
+
+.index-grid a {
+	font-family: SGRegular;
+}
+
+.post {
+	width: var(--w);
+	max-width: var(--mw);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.post p {
+		font-family: SGLight;
+}
+
+.post p span {
+			font-family: SGSemiBold;
+
+}
+
+h2 {
+	font-family: SGSemiBold;
+}
+
+
+.post img {
+	width: 100%;
+	object-fit: cover;
+}
