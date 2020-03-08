@@ -18,27 +18,31 @@
 <body>
 	<div class="header-section">
 		<h1>Photogrammetry Repo</h1>
-		<p><span>repo of all that I know of in the world of photogrammetry using a dual-core laptop.</span></p>
-		<p class="intro">This is a small repository of knowledge on photogrammetry. Many have been asking me about photogrammetry, and I did make a small blog about it a few years ago, but now that i know how to a less worse website, this is me taking another crack at it. In the time that has passed, the internet is now awash with information about photogrammtery. In the good old days (circa 2017) photogrammetry was still a relatively novel process but now that everyone knows about this, I shall talk about a few specific use cases and some other boring things that may or may not interest you. enjoy.</p>
-		
-		<div class="index-grid"><a href="#">What is Photogrammetry?</a>
-			<a href="#">What is Photogrammetry?</a>
-			<a href="#">How to Photogrammetry?</a>
-			<a href="#">I have a Mac, now what?</a>
-			<a href="#">I don't have a Mac, now what?</a>
-			<a href="#">I have a phone. That's it.</a>
-			<a href="#">I use social media.</a>
-			
-			<a href="#">I use PhotoScan</a>
-			
-			<a href="#">How do I use the word photogrammetry?</a>
-			<a href="#">What are the ethics of this?</a>
+		<div class="header-links">
 			<a href="#">See some of my work.</a>
-			<a href="#">About me.</a></div>
+			<a href="#">About me.</a>
+		</div>
+		<p><span>repo of all that I know of in the world of photogrammetry using a dual-core laptop.</span></p>
+		
+		<p class="intro">This is a small repository of knowledge on photogrammetry. Many have been asking me about photogrammetry, and I did make a small blog about it a few years ago, but now that i know how to a less worse website, this is me taking another crack at it. In the time that has passed, the internet is now awash with information about photogrammtery. In the good old days (circa 2017) photogrammetry was still a relatively novel process but now that everyone knows about this, I shall talk about a few specific use cases and some other boring things that may or may not interest you. enjoy.</p>
+		<p><span><u>Index</u></span></p>		
+		<div class="index-grid">
+			<a href="#what-is-photogrammetry">What is Photogrammetry?</a>
+			<a href="#how-to-photogrammetry">How to Photogrammetry?</a>
+			<a href="#mac">I have a Mac, now what?</a>
+			<a href="#no-mac">I don't have a Mac, now what?</a>
+			<a href="#phone">I have a phone. That's it.</a>
+			<a href="#social-media">I use social media.</a>
+			<a href="#using-metashape">I use Metashape</a>
+			<a href="#word">How do I use the word photogrammetry?</a>
+			<a href="#ethics">What are the ethics of this?</a>
+		</div>
 	</div>
 	
 	<div class="post">
-		<h2>What is Photogrammetry?</h2>
+		<h2 id="what-is-photogrammetry">What is Photogrammetry?</h2>
+		
+		<hr />
 		
 		<p>photogrammetry |ˌfəʊtə(ʊ)ˈgramɪtri| noun [ mass noun ] the use of photography in surveying and mapping to ascertain measurements between objects.</p>
 		
@@ -49,12 +53,36 @@
 		<p>Also known as Image-Based Modelling, this can either be done via aerial photography, or even with a normal camera. Higher resolution, sharper photos, and photos with closer overlap generally lead to better 3D models.</p>
 		
 		<p>Softwares such as ReMake, PhotoScan, Reality Capture, amongst others can transform a series of images into highly detailed and textured 3D models. The best of the softwares out there for prosumers are PhotoScan and Reality Capture.</p>
+		<!--		
+				<p><span>WARNING: Following is a detailed and probably painful spiel on Photogrammetry. Read at your own risk. I'd recommend skipping to the next section. <a href="#">Skip.</a></span></p>-->
+				
+				<p>Photogrammetry was a process used during wartime to map out elevations of enemy territory using spy photographs taken from planes. They were calculated using a manual steroplotter. Nowadays, photogrammetry calculations are performed digitally, usually with powerful computers. Photogrammetry is not only limited to terrain mapping and mensuration. The same logic can be applied to any 3D object. This precise calculation of measurements from photos paves the way for recreating 3D models digitally. So with just regular two-dimensional photographs, accurate 3D models can be obtained. As
+			old as photogrammetry is, the technology to accurately produce textured digital 3D models has just recently attained a level of detail and quality that makes it useful in a development workflow.</p>
 		
-		<img src="" alt="" />
+		<p>Photogrammetry requires the photos
+			of the object, and a piece of specialised software that then processes the photos, finds common points, and then spits out
+			a textured 3D model. As simple as it may sound, there are many caveats to the process that determine the quality of the final 3D model. We wanted to understand the process of photogrammetry, and
+			put together a set of good practices that could then be shared. Not too many other people are involved in the process of photogrammetry, hence there was a lack
+			of resources online to which we could potentially refer to. Only a few of the top gaming studios have recently been using
+			it. Game studios are usually careful about the information they share with others, but such is the infancy of this process that the game studios using photogrammetry have been sharing their methods and tools to encourage further development in this field.</p>
+		
+		<div class="image-grid-two">
+			<img src="images/etsy1.png" alt="" />
+			
+			<img src="images/etsy2.png" alt="" />
+		</div>
+		
+		<div class="image-grid-two">
+			<img src="images/etsy3.png" alt="" />
+			
+			<img src="images/etsy4.png" alt="" />
+		</div>
 	</div>
 	
-	<div class="post">
+	<div class="post"  id="how-to-photogrammetry">
 		<h2>How to Photogrammetry?</h2>
+		
+		<hr />
 		
 		<p><span>After many failed attempts at photogrammetry, I’ve arrived at a process (which is still evolving) that I can share.</span></p>
 		
@@ -70,55 +98,167 @@
 		
 		<p><span>Sixth:</span> Remember all of the above.</p>
 		
+		<p><span>Now that you have the photos, this is what you do next to process them. This process generally applies to most photogrammetry software, although I will try and break it down further for each tool that I have used in the past.</span></p>
+		
+		<p>Although the process of Photogrammetry is simple enough, with the software handling the bulk of the work, it’s important to understand how it works. Understanding the workings of the software can help one take better photos, and edit the output settings to get the desired results. This is a condensed version of the process that explains the basics of Photogrammetry, and what needs to be taken care of at each stage.</p>
+		
+		<p><span>Photography</span></p>
+		
+		<ul>
+			<li>Capture photos from every angle, and cover every corner you want to replicate.</li>
+			<li>Sharp photos are critical, as it allows the software to recognise points and create high quality textures.</li>
+			<li>Minimum 60% overlap or more is required, as it allows the software
+				to match common points, the more points the higher the accuracy of the matching.</li>
+			<li>Even lighting conditions are preferred to obtain neutral textures, avoid highlights and shadows</li>
+			<li>Aligning photos is the process of finding common points between every pair
+				of photos; hence the need for 60% overlap or more.</li>
+			<li>The software attempts to find pairs
+				with matching points, so to make that process faster, arrange the photos such that every photo has some overlap of the subject to each of the photos before and after it.</li>
+		</ul>
+		
+		<p><span>Dense Cloud</span></p>
+		
+		<ul>
+			<li>The sparse cloud only finds a few matching points to show you what the model will look like.</li>
+			<li>The dense cloud will find every matching point it can find and marks them, preparing for mesh construction.</li>
+			<li>This is the most CPU intensive process, and a high quality dense cloud will go a long way to make great meshes.</li>
+			<li>The final result of the dense cloud will give you a fairly accurate idea of how the final model will look like.</li>
+			<li>If the model does not look good here, go back to the first step, and capture better quality photos.</li>
+		</ul>
+		
+		<p><span>Mesh</span></p>
+		
+		<ul>
+			<li>The mesh is constructed using the dense cloud data.</li>
+			<li>After the software constructs the mesh, decimate the model to the size and resolution you prefer before the next step.</li>
+			<li>Decimating the 3D model is important as it reduces the complexity of the final model, decreasing it’s weight and CPU processing needed to render it.</li>
+		</ul>
+		
+		<p><span>Textured Model</span></p>
+		
+		<ul>
+			<li>Once you’re happy with your model, start the texturing process.</li>
+			<li>In this step you can choose the resolution of your texturing for your purposes (4K, 8K, etc).</li>
+			<li>After the model has been textured, proceed to export the model in any 3D format of your choice, with the material files.</li>
+		</ul>
+		
 		<p><span>Some great reference links below:</span></p>
+		
 		<p>1. Read about the use of proper studio level photogrammetry here: <a href="http://www.theastronauts.com/2014/03/visual-revolution-vanishing-ethan-carter/">Visual Revolution of The Vanishing of Ethan Carter</a></p>
 		
 		<p>2. Another decent guide in a Steam forum (Read all parts): <a href="https://steamcommunity.com/games/250820/announcements/detail/117448248511524033">Photogrammetry in VR - part 1 of 3</a></p>
 		
 		<p>3. A great video on the use of photogrammetry within Triple A titles: <a href="https://www.youtube.com/watch?v=U_WaqCBp9zo">Star Wars: Battlefront and the Art of Photogrammetry</a></p>
-		
-		<img src="" alt="" />
+	</div>
 	</div>
 	
-	<div class="post">
+	<div class="post"  id="mac">
 		<h2>I have a Mac, now what?</h2>
 		
-		<p></p>
+		<hr />
 		
-		<img src="" alt="" />
+		<p>There's no other way to put this, but it's going to be tough from here on.</p>
+		
+		<p><span>But first a bit of context (it's a rant, sorry).</span></p>
+		
+		<p>The core issue with doing photogrammetry with a Mac is that the GPU world is fragmented and generally favours the Windows platform. Most photogrammetry software are written to run on high-end professional Windows machines, and those usually contain Nvidia graphic cards. Hence, the software takes advantage of the CUDA cores, which is a proprietary Nvidia compute unit.</p>
+		
+		<p><span>So how did we come to this?</span></p>
+		
+		<p>The perfect storm of AMD declining in power, and the lack of a Mac workstation has led to this situation. It's not only photogrammetry and 3D computation that has been affected, the world of Machine Learning too faces this issue. It's incredibly unfair, but that's how it it. There is hope on the horizon though. AMD is hitting Nvidia and Intel where it hurts, with incredibly powerful and value for money hardware, and Apple has started shipping their new Mac Pro. Hopefully in the near future, we will see support for the Mac and AMD GPU's.</p>
+		
+		<p>Perhaps in another post I shall go into further detail, but to do photogrammetry, one needs a powerful GPU. Photogrammetry can take advantage of highly parallelised computing architecture, hence GPU>CPU.</p>
+		
+		<p>There are effectively 2 types of GPU's in the current, general consumer facing world. GPU's that have CUDA cores, and GPU's that don't. Only Nvidia GPU's contain CUDA cores, and most photogrammetry software require CUDA cores to process the photos and create 3D models. Most GPU's (including Nvidia and AMD) can work with OpenCL workloads. This is what Intel and AMD GPU's use, and by extension, what most current Mac's are capable of. Obviously, we'll be ignoring the Nvidia powered MacBook Pro's of 2015, because well, let's not go there.</p>
+		
+		<p>One of the only professional softwares which use OpenCL and can be run on the Mac is Agisoft Metashape (previously known as Photoscan). It's great, easy to use, and super nice to work with. If you have a Mac with a discrete AMD GPU, you can use both the integrated Intel GPU+the discrete AMD GPU to process your images. It's not going to be fast, and I'd only recommend using a MacBook laptop for smaller models or lower-poly processing, but it is possible to do photogrammetry on a Mac.</p>
+		
+		<p>I'm not sure what is the current status of Nvidia drivers for a Mac, but ideally, you can use an external GPU in a breakaway box and process your photos much quicker. I haven't seen the performance figures of the newest 16" MacBook Pro, but it seems like a huge step up, and would be an interesting option.</p>
+		
+		<p><span>So my ideal workflow for a Mac would probably look something like this:</span></p>
+		
+		<ol>
+			<li>Transfer images from camera to Mac, store in a folder, and maybe use Adobe Bridge to re-order photos.</li>
+			<li>Batch process images using Photoshop. Actually, Pixelmator Pro is a great option. I haven't tried it personally, but looks much lighter, faster, and cheaper to use.</li>
+			<li>Use Metashape to process photos and create high-poly mesh + texture file. Save to a folder.</li>
+			<li>Created a decimated version of your model using Blender/MeshLab/tool of your choice.</li>
+			<li>Open both meshes in Blender, and bake the high-poly textures to the low-poly model. <span>(super important, i really should make a guide about this. this is the holy grail of the process)</span></li>
+			<li>Now go forth unto the world with your models. 3D print the high poly model, or leave folks gawking at the detail on Sketchfab. Use the low poly model to crush the competition on mobile friendly games. The world is your oyster.</li>
+		</ol>
+		
+		<p><span>tldr;</span> Yes you can use a Mac, but make it a MacBook Pro 15"/16" or better. And lower your expectations. Or, ideally, get a Windows PC as a slave machine and get that to do all the heavy lifting while you enjoy the results on your Mac.</p>
 	</div>
 	
-	<div class="post">
+	<div class="post" id="no-mac">
 		<h2>I don't have a Mac, now what?</h2>
 		
-		<p></p>
+		<hr />
 		
-		<img src="" alt="" />
+		<p>Well first of all, why not a Mac?</p>
+		
+		<p>But second of all, wisely chosen. Windows is the ideal platform for photogrammetry, with Linux a tied third with the Mac. With a Windows PC/laptop, you're spoilt for choice really. There's multiple workflows, all of the good or great.</p>
+		
+		<p>Let's start off with the worst case scenario. If you have a workstation that does NOT have a Nvidia GPU, you're in the same boat as Mac users. Read the post about Mac users, and follow the same instructions. Fingers crossed this situation will change in the near future. Actually, it has, thanks to mobile ARM processors, more on that soon.</p>
+		
+		<p>However, if you do have a machine equipped with a Nvidia GPU you've reached the promised land of photogrammetry. Also, you can't have a piddling small little GPU like a MX150 or something. You will need something along the lines of a GTX 1060 or better. The bigger, the better.</p>
+		
+		<p>The current crop of photogrammetry software work excellently with CUDA equipped Nvidia GPU's. Not only are they well optimised, but plentiful as well, so you options to choose from, including free ones! </p>
+		
+		<p><span>So my ideal workflow for a PC would probably look something like this:</span></p>
+		
+		<ol>
+			<li>Transfer images from camera to the PC, store in a folder, and maybe use Adobe Bridge to re-order photos.</li>
+			<li>Batch process images using Photoshop. GIMP could work equally well. Always handy to have open-source options.</li>
+			<li>
+				Now go online and gaze upon your options. Of the lot, I'd recommend <a href="https://www.capturingreality.com/Home">RealityCapture</a>, <a href="https://www.agisoft.com">Agisoft Metashape</a>, and <a href="https://alicevision.org/#meshroom">Meshroom</a>, in that order. RealityCapture is the cream of the crop, and they have affordable licensing tiers. Metashape is super reliable, with a great user-friendly UI. Meshroom however, is open-source and freely available. Take your pick. I'd suggest trying all once, before investing more time into either of them.
+			</li>
+			<li>Created a decimated version of your model using Blender/MeshLab/tool of your choice.</li>
+			<li>Open both meshes in Blender, and bake the high-poly textures to the low-poly model. <span>(super important, i really should make a guide about this. this is the holy grail of the process)</span></li>
+			<li>Now go forth unto the world with your models. 3D print the high poly model, or leave folks gawking at the detail on Sketchfab. Use the low poly model to crush the competition on mobile friendly games. The world is your oyster.</li>
+			<li>Created a decimated version of your model using Blender/MeshLab/tool of your choice.</li>
+			<li>Open both meshes in Blender, and bake the high-poly textures to the low-poly model. <span>(super important, i really should make a guide about this. this is the holy grail of the process)</span></li>
+			<li>Now go forth unto the world with your models. 3D print the high poly model, or leave folks gawking at the detail on Sketchfab. Use the low poly model to crush the competition on mobile friendly games. The world is your oyster.</li>
+
+		</ol>
+		
+		<p><span>tldr;</span> Everything is great. Plenty of options, and many different workflows to choose from. Just stick to a Nvidia GPU for now. </p>
+
 	</div>
 	
-	<div class="post">
+	<div class="post" id="phone">
 		<h2>I have a phone. That's it.</h2>
 		
-		<p></p>
+		<hr />
+		
+		<p>Full post coming soon.</p>
+		
+		<p><span>tldr;</span> The future is bright and mobile is where we are headed. :) </p>
+
 		
 		<img src="" alt="" />
 	</div>
 	
-	<div class="post">
+	<div class="post" id="social-media">
 		<h2>I use social media.</h2>
 		
-		<p></p>
+		<hr />
+		
+		<p>There's some cool folks around the world doing some great work in this field. Below is a list of their accounts. </p>
+		<p><a href="http://">Go</a></p>
+
 		
 		<img src="" alt="" />
 	</div>
 	
-	<div class="post">
-		<h2>I use PhotoScan.</h2>
+	<div class="post" id="using-metashape">
+		<h2>I use Metashape (previously known as Photoscan).</h2>
 		
-		<p>Here's the beginner guide to using PhotoScan to get some sort of 3D mesh.
-		<p><span>Step 1:</span> Open PhotoScan.</p>
+		<hr />
 		
-		<p><span>Step 2:</span> Select your photos, and drag them into PhotoScan. Specifically, to the bar on the left hand side.</p>
+		<p>Here's the beginner guide to using Metashape to get some sort of 3D mesh.
+		<p><span>Step 1:</span> Open Metashape.</p>
+		
+		<p><span>Step 2:</span> Select your photos, and drag them into Metashape. Specifically, to the bar on the left hand side.</p>
 		
 		<p><span>Step 3:</span> Go to the Workflow tab on top, and select Align Photos. You will be presented with multiple levels for alignment. Lowest - Highest. Depending on your computers performance, select the appropriate option. I'd recommend Medium if you want an optimal blend of performance and time taken to render.</p>
 		
@@ -136,25 +276,29 @@
 		
 		<p><span>Step 10:</span> I hope you kept saving the file as you went along. Now that you can see the ready model in front of you, export to any format you see fit.</p>
 		
-		<p>Read more about using PhotoScan at this great guide here: <a href="https://bertrand-benoit.com/blog/the-poor-mans-guide-to-photogrammetry/">The Poor Man's Guide To Photogrammetry</a></p>
+		<p>Read more about using Metashape at this great guide here: <a href="https://bertrand-benoit.com/blog/the-poor-mans-guide-to-photogrammetry/">The Poor Man's Guide To Photogrammetry</a></p>
 		
 		<img src="" alt="" />
 	</div>
 	
-	<div class="post">
+	<div class="post" id="word">
 		<h2>How do I use the word photogrammetry?</h2>
 		
-		<p></p>
+		<hr />
 		
-		<img src="" alt="" />
+		<p>Full post coming soon.</p>
+		
+		<p><span>tldr;</span> The usage of the word is all wrong and I need to fix this. Is photogrammetry a verb? or a noun? We need new words. </p>
 	</div>
 	
-	<div class="post">
+	<div class="post" id="ethics">
 		<h2>What are the ethics of this?</h2>
 		
-		<p></p>
+		<hr />
 		
-		<img src="" alt="" />
+		<p>Full post coming soon.</p>
+		
+		<p><span>tldr;</span> It's confusing and tricky, but just please take consent? it's not that hard, and honestly the novelty and the non-invasivity of the process means that you'll usually get permission. But make sure you figure out your usage rights/permissions. Also, don't use flash? Really, just don't. If you need to use flash, you're doing it all wrong, and you'll have a terrible model most likely.</p>
 	</div>
 </body>
 </html>
