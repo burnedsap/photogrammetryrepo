@@ -102,7 +102,7 @@ $(document).ready(function() {
               return [
                 X_AXIS + ': ' + POINT_X_PREFIX + tooltipItem.xLabel.toLocaleString() + POINT_X_POSTFIX,
                 'Multi Core' + ': ' + POINT_Y_PREFIX + tooltipItem.yLabel.toLocaleString() + POINT_Y_POSTFIX,
-								'Score: ' + Math.floor((tooltipItem.yLabel/tooltipItem.xLabel)*100)
+								'Score: ' + ((tooltipItem.xLabel/tooltipItem.yLabel)*10).toFixed(2)
 
               ]
             }
