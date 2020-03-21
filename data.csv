@@ -92,12 +92,12 @@ MacBook Pro (13-inch Early 2011),Intel Core i7-2620M @ 2.7 GHz (2 cores),571,122
 MacBook Pro (15-inch Late 2011),Intel Core i7-2675QM @ 2.2 GHz (4 cores),571,2114,0
 MacBook Pro (17-inch Early 2011),Intel Core i7-2720QM @ 2.2 GHz (4 cores),572,2063,0
 Mac Pro (Mid 2010),Intel Xeon W3565 @ 3.2 GHz (4 cores),575,2152,0
-MacBook Pro (13-inch Retina),Intel Core i5-3210M @ 2.5 GHz (2 cores),575,1246,0
+MacBook Pro (13-inch Retina),Intel Core i5-3210M @ 2.5 GHz (2 cores),575,1246,1931
 MacBook Air (13-inch Early 2014),Intel Core i5-4260U @ 1.4 GHz (2 cores),579,1185,0
 iMac (21.5-inch Mid 2014),Intel Core i5-4260U @ 1.4 GHz (2 cores),580,1180,0
 iMac (21.5 inch Late 2011),Intel Core i3-2100 @ 3.1 GHz (2 cores),581,1297,0
 MacBook Pro (15-inch Early 2011),Intel Core i7-2820QM @ 2.3 GHz (4 cores),584,2092,0
-MacBook Pro (13-inch Mid 2012),Intel Core i5-3210M @ 2.5 GHz (2 cores),584,1275,0
+MacBook Pro (13-inch Mid 2012),Intel Core i5-3210M @ 2.5 GHz (2 cores),584,1275,1362.72
 MacBook Pro (13-inch Retina Early 2013),Intel Core i5-3230M @ 2.6 GHz (2 cores),585,1272,0
 Mac mini (Mid 2011),Intel Core i7-2620M @ 2.7 GHz (2 cores),586,1296,0
 Mac Pro (Mid 2010),Intel Xeon X5670 @ 2.9 GHz (12 cores),588,5445,0
@@ -121,7 +121,7 @@ MacBook Pro (17-inch Late 2011),Intel Core i7-2760QM @ 2.4 GHz (4 cores),639,231
 Mac Pro (Mid 2010),Intel Xeon W3680 @ 3.3 GHz (6 cores),641,3369,0
 MacBook Pro (13-inch Retina Late 2013),Intel Core i5-4258U @ 2.4 GHz (2 cores),645,1400,0
 MacBook Pro (15-inch Late 2011),Intel Core i7-2860QM @ 2.5 GHz (4 cores),651,2319,0
-MacBook Pro (15-inch Mid 2012),Intel Core i7-3615QM @ 2.3 GHz (4 cores),656,2599,0
+MacBook Pro (15-inch Mid 2012),Intel Core i7-3615QM @ 2.3 GHz (4 cores),656,2599,2044.65
 MacBook Pro (13-inch Retina Early 2013),Intel Core i7-3540M @ 3.0 GHz (2 cores),667,1424,0
 MacBook (Early 2016),Intel Core m7-6Y75 @ 1.3 GHz (2 cores),667,1449,0
 MacBook Air (Mid 2017),Intel Core i5-5350U @ 1.8 GHz (2 cores),667,1374,0
@@ -130,8 +130,8 @@ MacBook Pro (Retina),Intel Core i7-3615QM @ 2.3 GHz (4 cores),668,2599,0
 Mac mini (Late 2012),Intel Core i7-3615QM @ 2.3 GHz (4 cores),668,2638,0
 iMac (21.5-inch Late 2012),Intel Core i5-3335S @ 2.7 GHz (4 cores),670,2114,0
 MacBook Pro (17-inch Late 2011),Intel Core i7-2860QM @ 2.5 GHz (4 cores),672,2455,0
-MacBook Pro (13-inch Mid 2012),Intel Core i7-3520M @ 2.9 GHz (2 cores),672,1467,0
-MacBook Pro (13-inch Retina),Intel Core i7-3520M @ 2.9 GHz (2 cores),673,1461,0
+MacBook Pro (13-inch Mid 2012),Intel Core i7-3520M @ 2.9 GHz (2 cores),672,1467,1704
+MacBook Pro (13-inch Retina),Intel Core i7-3520M @ 2.9 GHz (2 cores),673,1461,2158.3
 MacBook Pro (15-inch Retina Early 2013),Intel Core i7-3635QM @ 2.4 GHz (4 cores),682,2672,0
 MacBook Pro (13-inch Retina Late 2013),Intel Core i5-4288U @ 2.6 GHz (2 cores),684,1472,0
 MacBook Pro (13-inch Retina Mid 2014),Intel Core i5-4278U @ 2.6 GHz (2 cores),692,1490,0
