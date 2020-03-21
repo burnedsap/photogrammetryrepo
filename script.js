@@ -31,7 +31,6 @@ $(document).ready(function() {
       return {
         x: row[POINT_X],
         y: row[POINT_Y],
-//		y:row[POINT_MY],
         name: row[POINT_NAME],
 		description: row[POINT_DESCRIPTION]
       }
@@ -102,7 +101,8 @@ $(document).ready(function() {
             label: function(tooltipItem, all) {
               return [
                 X_AXIS + ': ' + POINT_X_PREFIX + tooltipItem.xLabel.toLocaleString() + POINT_X_POSTFIX,
-                'Single Core' + ': ' + POINT_Y_PREFIX + tooltipItem.yLabel.toLocaleString() + POINT_Y_POSTFIX
+                'Single Core' + ': ' + POINT_Y_PREFIX + tooltipItem.yLabel.toLocaleString() + POINT_Y_POSTFIX,
+				'Score: ' + Math.floor((tooltipItem.yLabel/tooltipItem.xLabel)*100)
               ]
             }
           }
