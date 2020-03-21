@@ -1,0 +1,23 @@
+name,description,score,m_score,price
+Mac Mini (Late 2018),Intel Core i3-8100B @ 3.6 GHz (4 cores),915,3278,799
+iMac (21.5-inch Retina Early 2019),Intel Core i3-8100 @ 3.6 GHz (4 cores),916,3270,1299
+MacBook Pro (13-inch Mid 2019),Intel Core i5-8257U @ 1.4 GHz (4 cores),933,3850,1299
+MacBook Pro (13-inch Mid 2019),Intel Core i5-8279U @ 2.4 GHz (4 cores),957,3935,1799
+iMac (21.5-inch Retina Early 2019),Intel Core i5-8500 @ 3.0 GHz (6 cores),1018,4789,1499
+Mac mini (Late 2018),Intel Core i5-8500B @ 3.0 GHz (6 cores),1021,4787,1099
+MacBook Pro (16-inch Late 2019),Intel Core i7-9750H @ 2.6 GHz (6 cores),1030,5428,2399
+Mac Pro (Late 2019),Intel Xeon W-3223 @ 3.5 GHz (8 cores),1034,8040,5999
+MacBook Pro (13-inch Mid 2019),Intel Core i7-8557U @ 1.7 GHz (4 cores),1045,3946,1599
+iMac (27-inch Retina Early 2019),Intel Core i5-8600 @ 3.1 GHz (6 cores),1063,5091,1999
+MacBook Pro (16-inch Late 2019),Intel Core i9-9880H @ 2.3 GHz (8 cores),1081,6665,2799
+MacBook Pro (13-inch Mid 2019),Intel Core i7-8569U @ 2.8 GHz (4 cores),1100,4203,2099
+MacBook Pro (16-inch Late 2019),Intel Core i9-9980HK @ 2.4 GHz (8 cores),1121,6991,2699
+Mac Pro (Late 2019),Intel Xeon W-3235 @ 3.3 GHz (12 cores),1121,11751,6999
+Mac mini (Late 2018),Intel Core i7-8700B @ 3.2 GHz (6 cores),1126,5691,1099
+Mac Pro (Late 2019),Intel Xeon W-3245 @ 3.2 GHz (16 cores),1128,14531,7999
+iMac (27-inch Retina Early 2019),Intel Core i5-9600K @ 3.7 GHz (6 cores),1137,5414,2299
+iMac (21.5-inch Retina Early 2019),Intel Core i7-8700 @ 3.2 GHz (6 cores),1141,6272,1599
+Mac Pro (Late 2019),Intel Xeon W-3275M @ 2.5 GHz (28 cores),1142,19205,12999
+Mac Pro (Late 2019),Intel Xeon W-3265M @ 2.7 GHz (24 cores),1147,17818,11999
+iMac (27-inch Retina Early 2019),Intel Core i9-9900K @ 3.6 GHz (8 cores),1246,8231,2499
+MacBook Air (Early 2020), Intel Core i5- @1.1Ghz 1030NG7 (4 cores), 1047, 2658, 999
