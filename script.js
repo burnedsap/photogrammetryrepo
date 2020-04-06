@@ -34,7 +34,22 @@ d3.csv('data 2.csv').then(function(rows) {
 				description: row[POINT_DESCRIPTION]
 		}
 	})
-//	console.log(data1);
+	var rad1 = rows.map(function(row) {
+		return 
+			 (row[POINT_X]/row[POINT_Y]);
+			
+		
+	})
+	var rad2 = rows.map(function(row) {
+		return {
+			r: row[POINT_X]/row[POINT_Y]
+			}
+		
+	})
+
+
+	console.log(rad2);
+	console.log(data1);
 	var scatterChartData = {
 		datasets: [{
 			label: 'Single Core',
