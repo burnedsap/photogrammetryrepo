@@ -8,8 +8,10 @@
 	<title>Web AR Example</title>
 	
 	<meta name="description" content="">
-	    <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
-
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+ 
 </head>
 
     <!-- we import arjs version without NFT but with marker + location based support -->
@@ -20,7 +22,7 @@
 		<!--<a-marker-camera type='pattern' url='patter-Take 1 A3.patt'></a-marker-camera>-->
 
             <a-entity
-            position="0 0.5 0"
+            position="0 0 0"
             scale="1 1 1"
             gltf-model="shell_one_nostalgia/scene.gltf"
             ></a-entity>
