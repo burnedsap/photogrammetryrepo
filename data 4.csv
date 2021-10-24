@@ -1,0 +1,266 @@
+name,description,score,m_score,price
+MacBook Air (11-inch Late 2010),Intel Core 2 Duo U9400 @ 1.4 GHz (2 cores),185,338,0
+MacBook Air (11-inch Late 2010),Intel Core 2 Duo U9600 @ 1.6 GHz (2 cores),211,359,0
+MacBook (Late 2008),Intel Core 2 Duo P7350 @ 2.0 GHz (2 cores),263,461,0
+MacBook Air (13-inch Late 2010),Intel Core 2 Duo L9400 @ 1.9 GHz (2 cores),264,468,0
+Mac mini (Early 2009),Intel Core 2 Duo P7350 @ 2.0 GHz (2 cores),270,477,0
+MacBook Pro (Early 2008),Intel Core 2 Duo T8300 @ 2.4 GHz (2 cores),271,504,0
+MacBook (Early 2009),Intel Core 2 Duo P7350 @ 2.0 GHz (2 cores),272,460,0
+MacBook Air (13-inch Late 2010),Intel Core 2 Duo L9600 @ 2.1 GHz (2 cores),281,492,0
+MacBook (Early 2009),Intel Core 2 Duo P7450 @ 2.1 GHz (2 cores),282,480,0
+iMac (Mid 2009),Intel Core 2 Duo P7550 @ 2.3 GHz (2 cores),292,535,0
+MacBook Pro (13-inch Mid 2009),Intel Core 2 Duo P7550 @ 2.3 GHz (2 cores),293,510,0
+MacBook (Late 2009),Intel Core 2 Duo P7550 @ 2.3 GHz (2 cores),299,515,0
+MacBook Pro (Late 2008),Intel Core 2 Duo P8600 @ 2.4 GHz (2 cores),307,516,0
+Mac mini (Late 2009),Intel Core 2 Duo P7550 @ 2.3 GHz (2 cores),307,541,0
+MacBook Pro (13-inch Early 2010),Intel Core 2 Duo P8600 @ 2.4 GHz (2 cores),309,540,0
+Mac mini (Early 2010),Intel Core 2 Duo P8600 @ 2.4 GHz (2 cores),311,542,0
+MacBook Pro (Early 2008),Intel Core 2 Duo T9300 @ 2.5 GHz (2 cores),312,563,0
+MacBook (Late 2008),Intel Core 2 Duo P8600 @ 2.4 GHz (2 cores),316,553,0
+MacBook (Mid 2010),Intel Core 2 Duo P8600 @ 2.4 GHz (2 cores),317,555,0
+MacBook Pro (Late 2008),Intel Core 2 Duo T9400 @ 2.5 GHz (2 cores),317,550,0
+MacBook Pro (15-inch Mid 2009),Intel Core 2 Duo P8800 @ 2.7 GHz (2 cores),320,554,0
+MacBook Pro (13-inch Mid 2009),Intel Core 2 Duo P8700 @ 2.5 GHz (2 cores),323,578,0
+MacBook Pro (15-inch Mid 2009),Intel Core 2 Duo P8700 @ 2.5 GHz (2 cores),328,578,0
+MacBook Pro (13-inch Early 2010),Intel Core 2 Duo P8800 @ 2.7 GHz (2 cores),335,575,0
+Mac mini (Late 2009),Intel Core 2 Duo P8700 @ 2.5 GHz (2 cores),340,603,0
+Mac mini (Early 2010),Intel Core 2 Duo P8800 @ 2.7 GHz (2 cores),343,608,0
+MacBook Pro (17-inch Early 2009),Intel Core 2 Duo T9550 @ 2.7 GHz (2 cores),350,595,0
+MacBook Pro (Late 2008),Intel Core 2 Duo T9550 @ 2.7 GHz (2 cores),355,626,0
+MacBook Pro (15-inch Mid 2009),Intel Core 2 Duo T9600 @ 2.8 GHz (2 cores),356,625,0
+MacBook Pro (Late 2008),Intel Core 2 Duo T9800 @ 2.9 GHz (2 cores),362,632,0
+MacBook Pro (17-inch Early 2009),Intel Core 2 Duo T9800 @ 2.9 GHz (2 cores),366,636,0
+MacBook Pro (17-inch Mid 2009),Intel Core 2 Duo T9600 @ 2.8 GHz (2 cores),367,630,0
+iMac (Early 2009),Intel Core 2 Duo E8135 @ 2.7 GHz (2 cores),375,667,0
+iMac (Early 2008),Intel Core 2 Duo E8235 @ 2.8 GHz (2 cores),380,684,0
+iMac (Late 2009),Intel Core 2 Duo E7600 @ 3.1 GHz (2 cores),381,671,0
+MacBook Air (11-inch Mid 2011),Intel Core i5-2467M @ 1.6 GHz (2 cores),382,810,0
+MacBook Pro (15-inch Mid 2009),Intel Core 2 Duo T9900 @ 3.1 GHz (2 cores),391,686,0
+iMac (Early 2009),Intel Core 2 Duo E8335 @ 2.9 GHz (2 cores),395,732,0
+Mac Pro (Early 2008),Intel Xeon E5462 @ 2.8 GHz (4 cores),400,1222,0
+iMac (Early 2008),Intel Core 2 Duo E8435 @ 3.1 GHz (2 cores),403,741,0
+Mac Pro (Early 2008),Intel Xeon E5462 @ 2.8 GHz (8 cores),404,2228,0
+MacBook Pro (17-inch Mid 2009),Intel Core 2 Duo T9900 @ 3.1 GHz (2 cores),405,720,0
+MacBook Pro (15-inch Early 2010),Intel Core i5-520M @ 2.4 GHz (2 cores),419,899,0
+iMac (Early 2009),Intel Core 2 Duo E8435 @ 3.1 GHz (2 cores),424,739,0
+Mac Pro (Early 2008),Intel Xeon E5472 @ 3.0 GHz (8 cores),426,2373,0
+MacBook Pro (17-inch Early 2010),Intel Core i5-540M @ 2.5 GHz (2 cores),427,926,0
+MacBook Pro (15-inch Early 2010),Intel Core i5-540M @ 2.5 GHz (2 cores),427,924,0
+Mac Pro (Early 2009),Intel Xeon E5520 @ 2.3 GHz (8 cores),428,3114,0
+Mac Pro (Early 2008),Intel Xeon X5472 @ 3.0 GHz (8 cores),430,2388,0
+Xserve (Early 2009),Intel Xeon E5520 @ 2.3 GHz (8 cores),431,3147,0
+MacBook Air (13-inch Mid 2011),Intel Core i5-2557M @ 1.7 GHz (2 cores),453,945,0
+MacBook Pro (17-inch Early 2010),Intel Core i7-640M @ 2.8 GHz (2 cores),458,993,0
+Mac Pro (Early 2008),Intel Xeon X5482 @ 3.2 GHz (8 cores),458,2551,0
+MacBook Pro (15-inch Early 2010),Intel Core i7-620M @ 2.7 GHz (2 cores),468,985,0
+MacBook Pro (17-inch Early 2010),Intel Core i7-620M @ 2.7 GHz (2 cores),469,986,0
+iMac (Late 2009),Intel Core 2 Duo E8600 @ 3.3 GHz (2 cores),469,832,0
+iMac (21.5-inch Mid 2010),Intel Core i3-540 @ 3.1 GHz (2 cores),469,1023,0
+iMac (27-inch Mid 2010),Intel Core i3-550 @ 3.2 GHz (2 cores),469,1031,0
+Mac Pro (Mid 2010),Intel Xeon E5620 @ 2.4 GHz (8 cores),473,3419,0
+Mac Pro (Early 2009),Intel Xeon W3520 @ 2.7 GHz (4 cores),483,1838,0
+iMac (21.5-inch Mid 2010),Intel Core i3-550 @ 3.2 GHz (2 cores),486,1067,0
+MacBook Pro (13-inch Early 2011),Intel Core i5-2415M @ 2.3 GHz (2 cores),489,1067,0
+MacBook Pro (15-inch Early 2010),Intel Core i7-640M @ 2.8 GHz (2 cores),491,1047,0
+iMac (27-inch Late 2009),Intel Core i5-750 @ 2.7 GHz (4 cores),492,1487,0
+Mac Pro (Mid 2012),Intel Xeon E5645 @ 2.4 GHz (12 cores),495,4609,0
+MacBook Air (13-inch Mid 2011),Intel Core i7-2677M @ 1.8 GHz (2 cores),498,1011,0
+MacBook Pro (15-inch Early 2011),Intel Core i7-2635QM @ 2.0 GHz (4 cores),499,1866,0
+MacBook Air (11-inch Mid 2012),Intel Core i5-3317U @ 1.7 GHz (2 cores),503,1099,0
+Mac mini (Mid 2011),Intel Core i5-2415M @ 2.3 GHz (2 cores),507,1125,0
+MacBook Pro (13-inch Late 2011),Intel Core i5-2435M @ 2.4 GHz (2 cores),507,1105,0
+MacBook (Early 2016),Intel Core m3-6Y30 @ 1.1 GHz (2 cores),508,1151,0
+MacBook Air (11-inch Mid 2011),Intel Core i7-2677M @ 1.8 GHz (2 cores),512,1071,0
+Mac Pro (Mid 2010),Intel Xeon W3530 @ 2.8 GHz (4 cores),514,1952,0
+iMac (27-inch Late 2009),Intel Core i7-860 @ 2.8 GHz (4 cores),516,1816,0
+MacBook Air (13-inch Mid 2012),Intel Core i5-3427U @ 1.8 GHz (2 cores),526,1141,0
+iMac (27-inch Mid 2010),Intel Core i5-760 @ 2.8 GHz (4 cores),528,1637,0
+Mac Pro (Early 2009),Intel Xeon W3540 @ 2.9 GHz (4 cores),529,1947,0
+MacBook (Early 2015),Intel Core M-5Y31 @ 1.1 GHz (2 cores),535,1043,0
+MacBook Pro (15-inch Early 2011),Intel Core i7-2720QM @ 2.2 GHz (4 cores),538,1936,0
+Mac Pro (Mid 2010),Intel Xeon X5650 @ 2.7 GHz (12 cores),547,5188,0
+Xserve (Early 2009),Intel Xeon X5570 @ 2.9 GHz (8 cores),548,3811,0
+MacBook Air (13-inch Mid 2013),Intel Core i5-4250U @ 1.3 GHz (2 cores),554,1136,0
+Mac mini (Mid 2011),Intel Core i7-2635QM @ 2.0 GHz (4 cores),555,1933,0
+Mac Pro (Early 2009),Intel Xeon X5570 @ 2.9 GHz (8 cores),559,3870,0
+MacBook Air (11-inch Mid 2013),Intel Core i5-4250U @ 1.3 GHz (2 cores),559,1138,0
+MacBook (Early 2015),Intel Core M-5Y51 @ 1.2 GHz (2 cores),560,1121,0
+Mac mini (Mid 2011),Intel Core i5-2520M @ 2.5 GHz (2 cores),561,1246,0
+iMac (27-inch Mid 2010),Intel Core i7-870 @ 2.9 GHz (4 cores),562,2027,0
+Mac mini (Late 2012),Intel Core i5-3210M @ 2.5 GHz (2 cores),570,1267,0
+MacBook Pro (13-inch Early 2011),Intel Core i7-2620M @ 2.7 GHz (2 cores),571,1225,0
+MacBook Pro (15-inch Late 2011),Intel Core i7-2675QM @ 2.2 GHz (4 cores),571,2114,0
+MacBook Pro (17-inch Early 2011),Intel Core i7-2720QM @ 2.2 GHz (4 cores),572,2063,0
+Mac Pro (Mid 2010),Intel Xeon W3565 @ 3.2 GHz (4 cores),575,2152,0
+MacBook Pro (13-inch Retina),Intel Core i5-3210M @ 2.5 GHz (2 cores),575,1246,1931
+MacBook Air (13-inch Early 2014),Intel Core i5-4260U @ 1.4 GHz (2 cores),579,1185,0
+iMac (21.5-inch Mid 2014),Intel Core i5-4260U @ 1.4 GHz (2 cores),580,1180,0
+iMac (21.5 inch Late 2011),Intel Core i3-2100 @ 3.1 GHz (2 cores),581,1297,0
+MacBook Pro (15-inch Early 2011),Intel Core i7-2820QM @ 2.3 GHz (4 cores),584,2092,0
+MacBook Pro (13-inch Mid 2012),Intel Core i5-3210M @ 2.5 GHz (2 cores),584,1275,1362.72
+MacBook Pro (13-inch Retina Early 2013),Intel Core i5-3230M @ 2.6 GHz (2 cores),585,1272,0
+Mac mini (Mid 2011),Intel Core i7-2620M @ 2.7 GHz (2 cores),586,1296,0
+Mac Pro (Mid 2010),Intel Xeon X5670 @ 2.9 GHz (12 cores),588,5445,0
+MacBook Air (11-inch Early 2014),Intel Core i5-4260U @ 1.4 GHz (2 cores),588,1211,0
+MacBook (Early 2016),Intel Core m5-6Y54 @ 1.2 GHz (2 cores),588,1322,0
+MacBook Pro (13-inch Late 2011),Intel Core i7-2640M @ 2.8 GHz (2 cores),592,1257,0
+iMac (21.5-inch Mid 2010),Intel Core i5-680 @ 3.6 GHz (2 cores),594,1288,0
+MacBook Pro (17-inch Early 2011),Intel Core i7-2820QM @ 2.3 GHz (4 cores),595,2155,0
+Mac mini (Late 2014),Intel Core i5-4260U @ 1.4 GHz (2 cores),604,1228,0
+MacBook Air (13-inch Mid 2012),Intel Core i7-3667U @ 2.0 GHz (2 cores),605,1295,0
+MacBook Air (11-inch Mid 2012),Intel Core i7-3667U @ 2.0 GHz (2 cores),606,1303,0
+iMac (27-inch Mid 2010),Intel Core i5-680 @ 3.6 GHz (2 cores),608,1311,0
+Mac Pro (Mid 2012),Intel Xeon X5675 @ 3.1 GHz (12 cores),612,5648,0
+MacBook Air (13-inch Early 2015),Intel Core i5-5250U @ 1.6 GHz (2 cores),612,1260,0
+MacBook (Early 2015),Intel Core M-5Y71 @ 1.3 GHz (2 cores),626,1200,0
+MacBook Air (11-inch Early 2015),Intel Core i5-5250U @ 1.6 GHz (2 cores),628,1309,0
+MacBook Pro (15-inch Late 2011),Intel Core i7-2760QM @ 2.4 GHz (4 cores),633,2259,0
+iMac (21.5-inch Late 2015),Intel Core i5-5250U @ 1.6 GHz (2 cores),637,1321,0
+iMac (21.5-inch Mid 2011),Intel Core i5-2400S @ 2.5 GHz (4 cores),638,1830,0
+MacBook Pro (17-inch Late 2011),Intel Core i7-2760QM @ 2.4 GHz (4 cores),639,2314,0
+Mac Pro (Mid 2010),Intel Xeon W3680 @ 3.3 GHz (6 cores),641,3369,0
+MacBook Pro (13-inch Retina Late 2013),Intel Core i5-4258U @ 2.4 GHz (2 cores),645,1400,0
+MacBook Pro (15-inch Late 2011),Intel Core i7-2860QM @ 2.5 GHz (4 cores),651,2319,0
+MacBook Pro (15-inch Mid 2012),Intel Core i7-3615QM @ 2.3 GHz (4 cores),656,2599,2044.65
+MacBook Pro (13-inch Retina Early 2013),Intel Core i7-3540M @ 3.0 GHz (2 cores),667,1424,0
+MacBook (Early 2016),Intel Core m7-6Y75 @ 1.3 GHz (2 cores),667,1449,0
+MacBook Air (Mid 2017),Intel Core i5-5350U @ 1.8 GHz (2 cores),667,1374,0
+iMac (27-inch Mid 2011),Intel Core i5-2400 @ 3.1 GHz (4 cores),668,2144,0
+MacBook Pro (Retina),Intel Core i7-3615QM @ 2.3 GHz (4 cores),668,2599,0
+Mac mini (Late 2012),Intel Core i7-3615QM @ 2.3 GHz (4 cores),668,2638,0
+iMac (21.5-inch Late 2012),Intel Core i5-3335S @ 2.7 GHz (4 cores),670,2114,0
+MacBook Pro (17-inch Late 2011),Intel Core i7-2860QM @ 2.5 GHz (4 cores),672,2455,0
+MacBook Pro (13-inch Mid 2012),Intel Core i7-3520M @ 2.9 GHz (2 cores),672,1467,1704
+MacBook Pro (13-inch Retina),Intel Core i7-3520M @ 2.9 GHz (2 cores),673,1461,2158.3
+MacBook Pro (15-inch Retina Early 2013),Intel Core i7-3635QM @ 2.4 GHz (4 cores),682,2672,0
+MacBook Pro (13-inch Retina Late 2013),Intel Core i5-4288U @ 2.6 GHz (2 cores),684,1472,0
+MacBook Pro (13-inch Retina Mid 2014),Intel Core i5-4278U @ 2.6 GHz (2 cores),692,1490,0
+iMac (21.5-inch Mid 2011),Intel Core i5-2500S @ 2.7 GHz (4 cores),694,1906,0
+Mac mini (Late 2014),Intel Core i5-4278U @ 2.6 GHz (2 cores),694,1499,0
+MacBook Pro (13-inch Late 2016),Intel Core i5-6360U @ 2.0 GHz (2 cores),699,1608,0
+MacBook (Mid 2017),Intel Core i5-7Y54 @ 1.3 GHz (2 cores),699,1523,0
+iMac (27-inch Mid 2011),Intel Core i5-2500S @ 2.7 GHz (4 cores),707,1946,0
+MacBook (Mid 2017),Intel Core m3-7Y32 @ 1.2 GHz (2 cores),707,1534,0
+MacBook Pro (Retina),Intel Core i7-3720QM @ 2.6 GHz (4 cores),715,2700,0
+MacBook Pro (15-inch Mid 2012),Intel Core i7-3720QM @ 2.6 GHz (4 cores),719,2799,0
+MacBook Pro (13-inch Retina Early 2015),Intel Core i5-5257U @ 2.7 GHz (2 cores),721,1549,0
+MacBook Air (13-inch Mid 2013),Intel Core i7-4650U @ 1.7 GHz (2 cores),723,1420,0
+MacBook Pro (15-inch Retina Early 2013),Intel Core i7-3740QM @ 2.7 GHz (4 cores),724,2714,0
+MacBook Pro (13-inch Retina Mid 2014),Intel Core i5-4308U @ 2.8 GHz (2 cores),724,1532,0
+MacBook Air (11-inch Mid 2013),Intel Core i7-4650U @ 1.7 GHz (2 cores),726,1431,0
+Mac Pro (Late 2013),Intel Xeon E5-2697 v2 @ 2.7 GHz (12 cores),727,7056,0
+Mac mini (Late 2012),Intel Core i7-3720QM @ 2.6 GHz (4 cores),728,2819,0
+iMac (21.5-inch Mid 2011),Intel Core i7-2600S @ 2.8 GHz (4 cores),736,2398,0
+MacBook Pro (Retina),Intel Core i7-3820QM @ 2.7 GHz (4 cores),737,2721,0
+MacBook Air (13-inch Early 2015),Intel Core i7-5650U @ 2.2 GHz (2 cores),741,1540,0
+MacBook Pro (15-inch Retina Early 2013),Intel Core i7-3840QM @ 2.8 GHz (4 cores),742,2745,0
+MacBook Pro (13-inch Retina Late 2013),Intel Core i7-4558U @ 2.8 GHz (2 cores),742,1582,0
+iMac (27-inch Mid 2011),Intel Core i7-2600 @ 3.4 GHz (4 cores),743,2729,0
+MacBook Pro (13-inch Late 2016),Intel Core i5-6267U @ 2.9 GHz (2 cores),743,1738,0
+MacBook Air (11-inch Early 2015),Intel Core i7-5650U @ 2.2 GHz (2 cores),744,1568,0
+iMac (27-inch Late 2012),Intel Core i5-3470 @ 3.2 GHz (4 cores),747,2433,0
+MacBook Pro (13-inch Late 2016),Intel Core i7-6660U @ 2.4 GHz (2 cores),747,1768,0
+iMac (27-inch Late 2012),Intel Core i5-3470S @ 2.9 GHz (4 cores),749,2373,0
+MacBook Pro (15-inch Retina Late 2013),Intel Core i7-4750HQ @ 2.0 GHz (4 cores),750,2912,0
+iMac (21.5-inch Late 2012),Intel Core i5-3470S @ 2.9 GHz (4 cores),753,2404,0
+MacBook Pro (15-inch Mid 2012),Intel Core i7-3820QM @ 2.7 GHz (4 cores),754,2940,0
+iMac (21.5-inch Late 2013),Intel Core i5-4570R @ 2.7 GHz (4 cores),755,2549,0
+MacBook Air (Late 2018),Intel Core i5-8210Y @ 1.6 GHz (2 cores),758,1532,0
+Mac mini (Late 2014),Intel Core i5-4308U @ 2.8 GHz (2 cores),760,1647,0
+MacBook Pro (13-inch Retina Early 2015),Intel Core i5-5287U @ 2.9 GHz (2 cores),761,1615,0
+MacBook Pro (13-inch Late 2016),Intel Core i5-6287U @ 3.1 GHz (2 cores),769,1798,0
+MacBook Pro (13-inch Late 2016),Intel Core i7-6567U @ 3.3 GHz (2 cores),771,1824,0
+MacBook (Mid 2017),Intel Core i7-7Y75 @ 1.4 GHz (2 cores),771,1590,0
+Mac mini (Late 2014),Intel Core i7-4578U @ 3.0 GHz (2 cores),773,1632,0
+MacBook Pro (13-inch Retina Mid 2014),Intel Core i7-4578U @ 3.0 GHz (2 cores),780,1605,0
+MacBook Pro (15-inch Late 2016),Intel Core i7-6700HQ @ 2.6 GHz (4 cores),787,3203,0
+MacBook Pro (15-inch Retina Mid 2015),Intel Core i7-4770HQ @ 2.2 GHz (4 cores),796,3102,0
+MacBook Pro (13-inch Retina Early 2015),Intel Core i7-5557U @ 3.1 GHz (2 cores),799,1668,0
+MacBook Pro (15-inch Retina Mid 2014),Intel Core i7-4770HQ @ 2.2 GHz (4 cores),800,3097,0
+MacBook Pro (15-inch Late 2016),Intel Core i7-6820HQ @ 2.7 GHz (4 cores),804,3265,0
+iMac (27-inch Late 2012),Intel Core i7-3770 @ 3.4 GHz (4 cores),814,3092,0
+MacBook Pro (15-inch Retina Late 2013),Intel Core i7-4850HQ @ 2.3 GHz (4 cores),815,3132,0
+Mac Pro (Late 2013),Intel Xeon E5-1650 v2 @ 3.5 GHz (6 cores),817,4631,0
+Mac Pro (Late 2013),Intel Xeon E5-1620 v2 @ 3.7 GHz (4 cores),817,3273,0
+iMac (21.5-inch Late 2012),Intel Core i7-3770S @ 3.1 GHz (4 cores),824,3077,0
+Mac Pro (Late 2013),Intel Xeon E5-1680 v2 @ 3.0 GHz (8 cores),825,5857,0
+MacBook Pro (13-inch Mid 2017),Intel Core i5-7267U @ 3.1 GHz (2 cores),830,2005,0
+iMac (21.5-inch Late 2013),Intel Core i5-4570S @ 2.9 GHz (4 cores),839,2611,0
+iMac (21.5-inch Late 2015),Intel Core i5-5575R @ 2.8 GHz (4 cores),842,2888,0
+iMac (27-inch Late 2013),Intel Core i5-4570 @ 3.2 GHz (4 cores),845,2682,0
+MacBook Pro (15-inch Late 2016),Intel Core i7-6920HQ @ 2.9 GHz (4 cores),853,3409,0
+iMac (27-inch Retina Late 2015),Intel Core i5-6500 @ 3.2 GHz (4 cores),856,2938,0
+iMac (21.5-inch Retina Mid 2017),Intel Core i5-7400 @ 3.0 GHz (4 cores),859,3006,0
+MacBook Pro (13-inch Mid 2017),Intel Core i5-7360U @ 2.3 GHz (2 cores),860,2051,0
+MacBook Pro (15-inch Mid 2017),Intel Core i7-7700HQ @ 2.8 GHz (4 cores),862,3394,0
+MacBook Pro (15-inch Retina Mid 2014),Intel Core i7-4870HQ @ 2.5 GHz (4 cores),863,3185,0
+MacBook Pro (15-inch Retina Mid 2015),Intel Core i7-4870HQ @ 2.5 GHz (4 cores),864,3230,0
+MacBook Pro (15-inch Retina Mid 2015),Intel Core i7-4870HQ @ 2.5 GHz (4 cores),864,3230,0
+iMac (21.5-inch Mid 2017),Intel Core i5-7360U @ 2.3 GHz (2 cores),865,2064,0
+MacBook Pro (15-inch Retina Late 2013),Intel Core i7-4960HQ @ 2.6 GHz (4 cores),887,3303,0
+iMac (27-inch Late 2013),Intel Core i5-4670 @ 3.4 GHz (4 cores),891,2816,0
+MacBook Pro (15-inch Mid 2017),Intel Core i7-7820HQ @ 2.9 GHz (4 cores),894,3506,0
+MacBook Pro (13-inch Mid 2018),Intel Core i5-8259U @ 2.3 GHz (4 cores),898,3866,0
+iMac (21.5-inch Late 2013),Intel Core i7-4770S @ 3.1 GHz (4 cores),906,3323,0
+MacBook Pro (13-inch Mid 2017),Intel Core i7-7567U @ 3.5 GHz (2 cores),908,2122,0
+iMac (27-inch Late 2013),Intel Core i7-4771 @ 3.5 GHz (4 cores),911,3416,0
+iMac (21.5-inch Retina Late 2015),Intel Core i5-5675R @ 3.1 GHz (4 cores),911,3105,0
+iMac (27-inch Retina),Intel Core i5-4690 @ 3.5 GHz (4 cores),915,2912,0
+iMac (27-inch Retina Mid 2017),Intel Core i5-7500 @ 3.4 GHz (4 cores),915,3215,0
+Mac mini (Late 2018),Intel Core i3-8100B @ 3.6 GHz (4 cores),915,3278,799
+MacBook Pro (15-inch Retina Mid 2014),Intel Core i7-4980HQ @ 2.8 GHz (4 cores),916,3260,2523
+iMac (21.5-inch Retina Early 2019),Intel Core i3-8100 @ 3.6 GHz (4 cores),916,3270,1299
+iMac (21.5-inch Retina Mid 2017),Intel Core i5-7500 @ 3.4 GHz (4 cores),925,3233,0
+MacBook Pro (15-inch Mid 2017),Intel Core i7-7920HQ @ 3.1 GHz (4 cores),927,3530,0
+iMac (27-inch Retina Late 2015),Intel Core i5-6600 @ 3.3 GHz (4 cores),929,3188,0
+MacBook Pro (15-inch Retina Mid 2015),Intel Core i7-4980HQ @ 2.8 GHz (4 cores),932,3374,2483
+MacBook Pro (13-inch Mid 2019),Intel Core i5-8257U @ 1.4 GHz (4 cores),933,3850,1299
+iMac (21.5-inch Retina Late 2015),Intel Core i7-5775R @ 3.3 GHz (4 cores),946,3730,1835
+MacBook Pro (13-inch Mid 2019),Intel Core i5-8279U @ 2.4 GHz (4 cores),957,3935,1799
+MacBook Pro (15-inch Mid 2018),Intel Core i7-8750H @ 2.2 GHz (6 cores),965,4807,2502
+iMac (27-inch Retina Mid 2017),Intel Core i5-7600 @ 3.5 GHz (4 cores),985,3423,2129
+MacBook Pro (15-inch Mid 2018),Intel Core i7-8850H @ 2.6 GHz (6 cores),995,4895,2919
+iMac (27-inch Retina Early 2019),Intel Core i5-8500 @ 3.0 GHz (6 cores),1016,4877,1499
+iMac (21.5-inch Retina Early 2019),Intel Core i5-8500 @ 3.0 GHz (6 cores),1018,4789,1499
+iMac (27-inch Retina Mid 2017),Intel Core i5-7600K @ 3.8 GHz (4 cores),1021,3565,2449
+Mac mini (Late 2018),Intel Core i5-8500B @ 3.0 GHz (6 cores),1021,4787,1099
+iMac (27-inch Retina),Intel Core i7-4790K @ 4.0 GHz (4 cores),1030,3769,3017
+MacBook Pro (16-inch Late 2019),Intel Core i7-9750H @ 2.6 GHz (6 cores),1030,5428,2399
+MacBook Pro (13-inch Mid 2018),Intel Core i7-8559U @ 2.7 GHz (4 cores),1032,4063,0
+MacBook Pro (15-inch Mid 2019),Intel Core i7-9750H @ 2.6 GHz (6 cores),1032,5125,2442
+Mac Pro (Late 2019),Intel Xeon W-3223 @ 3.5 GHz (8 cores),1034,8040,5999
+iMac (27-inch Retina Late 2015),Intel Core i7-6700K @ 4.0 GHz (4 cores),1043,4242,2483
+MacBook Pro (13-inch Mid 2019),Intel Core i7-8557U @ 1.7 GHz (4 cores),1045,3946,1599
+MacBook Pro (15-inch Mid 2018),Intel Core i9-8950HK @ 2.9 GHz (6 cores),1052,5112,2919
+iMac (21.5-inch Retina Mid 2017),Intel Core i7-7700 @ 3.6 GHz (4 cores),1060,4318,1703
+iMac (27-inch Retina Early 2019),Intel Core i5-8600 @ 3.1 GHz (6 cores),1063,5091,1999
+iMac Pro (Late 2017),Intel Xeon W-2140B @ 3.2 GHz (8 cores),1073,8070,5325
+iMac Pro (Late 2017),Intel Xeon W-2170B @ 2.5 GHz (14 cores),1080,11196,7029
+MacBook Pro (16-inch Late 2019),Intel Core i9-9880H @ 2.3 GHz (8 cores),1081,6665,2799
+iMac Pro (Late 2017),Intel Xeon W-2191B @ 2.3 GHz (18 cores),1087,13427,7881
+MacBook Pro (15-inch Mid 2019),Intel Core i9-9880H @ 2.3 GHz (8 cores),1094,6368,2850
+MacBook Pro (13-inch Mid 2019),Intel Core i7-8569U @ 2.8 GHz (4 cores),1100,4203,2099
+MacBook Pro (16-inch Late 2019),Intel Core i9-9980HK @ 2.4 GHz (8 cores),1121,6991,2699
+Mac Pro (Late 2019),Intel Xeon W-3235 @ 3.3 GHz (12 cores),1121,11751,6999
+iMac (27-inch Retina Mid 2017),Intel Core i7-7700K @ 4.2 GHz (4 cores),1122,4581,2449
+Mac mini (Late 2018),Intel Core i7-8700B @ 3.2 GHz (6 cores),1126,5691,1099
+iMac Pro (Late 2017),Intel Xeon W-2150B @ 3.0 GHz (10 cores),1127,9534,6177
+MacBook Pro (15-inch Mid 2019),Intel Core i9-9980HK @ 2.4 GHz (8 cores),1127,6831,2748
+Mac Pro (Late 2019),Intel Xeon W-3245 @ 3.2 GHz (16 cores),1128,14531,7999
+iMac (27-inch Retina Early 2019),Intel Core i5-9600K @ 3.7 GHz (6 cores),1137,5414,2299
+iMac (21.5-inch Retina Early 2019),Intel Core i7-8700 @ 3.2 GHz (6 cores),1141,6272,1599
+Mac Pro (Late 2019),Intel Xeon W-3275M @ 2.5 GHz (28 cores),1142,19205,12999
+Mac Pro (Late 2019),Intel Xeon W-3265M @ 2.7 GHz (24 cores),1147,17818,11999
+iMac (27-inch Retina Early 2019),Intel Core i9-9900K @ 3.6 GHz (8 cores),1246,8231,2499
+MacBook Air (Early 2020),Intel Core i5- @1.1Ghz 1030NG7 (4 cores),1047,2658,999
+MacBook Pro (13-inch Late 2020), Apple M1 @ 3.19 GHz (8 cores), 1725, 7590, 1399
+MacBook Air (Late 2020), Apple M1 @ 3.2 GHz (8 cores), 1720, 7572, 999
+Mac mini (Late 2020), Apple M1 @ 3.2 GHz (8 cores), 1732, 7633, 699
+iMac (21.5-inch Mid-2017),Intel Core i5-7360U @ 2.3 GHz (2 cores), 857, 2028, 1099
+iMac (24-inch 2021), Apple M1 @ 3.2 GHz (8 cores), 1716, 7469, 1299
+iMac (27-inch Retina Late 2020), Intel Core i9-10910 @ 3.6 GHz (10 cores), 1259, 8940, 2499
+iMac (27-inch Retina Late 2020), Intel Core i7-10700K @ 3.8 GHz (8 cores), 1217, 7750, 2299
+iMac (27-inch Retina Late 2020), Intel Core i5-10600 @ 3.3 GHz (6 cores), 1149, 5856, 1999
+iMac (27-inch Retina Late 2020), Intel Core i5-10500 @ 3.1 GHz (6 cores), 1127, 5654, 1799
+MacBook Pro (14-inch Late 2021), M1 Pro (8 cores), 1767, 9948, 1999
+MacBook Pro (14-inch Late 2021), M1 Pro (10 cores), 1770, 12596, 2199

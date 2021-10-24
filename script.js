@@ -34,7 +34,7 @@ d3.csv('data 2.csv').then(function (rows) {
 			description: row[POINT_DESCRIPTION]
 		}
 	})
-	
+
 	var scatterChartData = {
 		datasets: [{
 			label: 'Single Core',
@@ -54,7 +54,7 @@ d3.csv('data 2.csv').then(function (rows) {
 		}]
 	};
 
-	var ctx = document.getElementById('container').getContext('2d');
+	var ctx = document.getElementById('mac-21').getContext('2d');
 	Chart.Scatter(ctx, {
 		data: scatterChartData,
 		options: {

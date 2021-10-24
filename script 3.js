@@ -2,8 +2,8 @@
 var TITLE = 'Geekbench Compute Scores';
 var POINT_X = 'price'; // column name for x values in data.csv
 var POINT_X_PREFIX = '$'; // prefix for x values, eg '$'	
-var POINT_Y = 'opencl'; // column name for y values in data.csv
-var POINT_MY = 'metal'; // column name for y values in data.csv
+var POINT_Y = 'score'; // column name for y values in data.csv
+var POINT_MY = 'm_score'; // column name for y values in data.csv
 var POINT_Y_PREFIX = ''; // prefix for x values, eg 'USD '
 var POINT_NAME = 'name'; // point names that appear in tooltip
 var POINT_COLOR = 'rgba(0, 0, 255,0.7)'; // point color, eg `black` or `rgba(10, 100, 44, 0.8)`
@@ -17,7 +17,6 @@ var SHOW_GRID = true; // `true` to show the grid, `false` to hide
 
 // Read data file and create a chart
 d3.csv('data 3.csv').then(function (rows) {
-
     let data1 = rows.map(function (row) {
         return {
             x: row[POINT_X],
@@ -54,7 +53,7 @@ d3.csv('data 3.csv').then(function (rows) {
         }]
     };
 
-    let ctx = document.getElementById('container 3').getContext('2d');
+    let ctx = document.getElementById('compute').getContext('2d');
     Chart.Scatter(ctx, {
         data: scatterChartData,
         options: {
