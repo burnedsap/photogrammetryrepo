@@ -13,43 +13,28 @@ var POINT_DESCRIPTION = 'description';
 var X_AXIS = 'Price';  // x-axis label and label in tooltip
 var Y_AXIS = 'Geekbench Score'; // y-axis label and label in tooltip
 var SHOW_GRID = true; // `true` to show the grid, `false` to hide
-	
-	
-	  // Read data file and create a chart
-d3.csv('data 2.csv').then(function(rows) {
-	
-	var data1 = rows.map(function(row) {
-		return {
-			x: row[POINT_X],
-				y: row[POINT_Y],
-				name: row[POINT_NAME],
-				description: row[POINT_DESCRIPTION]
-		}
-	})
-	var data2 = rows.map(function(row) {
-		return {
-			x: row[POINT_X],
-				y: row[POINT_MY],
-				name: row[POINT_NAME],
-				description: row[POINT_DESCRIPTION]
-		}
-	})
-	var rad1 = rows.map(function(row) {
-		return 
-			 (row[POINT_X]/row[POINT_Y]);
-			
-		
-	})
-	var rad2 = rows.map(function(row) {
-		return {
-			r: row[POINT_X]/row[POINT_Y]
-			}
-		
-	})
 
 
-	console.log(rad2);
-	console.log(data1);
+// Read data file and create a chart
+d3.csv('data 2.csv').then(function (rows) {
+
+	var data1 = rows.map(function (row) {
+		return {
+			x: row[POINT_X],
+			y: row[POINT_Y],
+			name: row[POINT_NAME],
+			description: row[POINT_DESCRIPTION]
+		}
+	})
+	var data2 = rows.map(function (row) {
+		return {
+			x: row[POINT_X],
+			y: row[POINT_MY],
+			name: row[POINT_NAME],
+			description: row[POINT_DESCRIPTION]
+		}
+	})
+	
 	var scatterChartData = {
 		datasets: [{
 			label: 'Single Core',
@@ -57,18 +42,18 @@ d3.csv('data 2.csv').then(function(rows) {
 			data: data1,
 			pointRadius: 5,
 			pointHoverRadius: POINT_RADIUS + 2,
-			
-			},
-			{
-				label: 'Multi Core',
-				backgroundColor: POINT_MCOLOR,
-				data: data2,
-				pointRadius: 5,
-				pointHoverRadius: POINT_RADIUS + 2,
-				
-			}]
+
+		},
+		{
+			label: 'Multi Core',
+			backgroundColor: POINT_MCOLOR,
+			data: data2,
+			pointRadius: 5,
+			pointHoverRadius: POINT_RADIUS + 2,
+
+		}]
 	};
-	
+
 	var ctx = document.getElementById('container').getContext('2d');
 	Chart.Scatter(ctx, {
 		data: scatterChartData,
@@ -77,11 +62,11 @@ d3.csv('data 2.csv').then(function(rows) {
 				display: true,
 				text: TITLE,
 				fontSize: 14,
-				
+
 			},
 			legend: {
 				display: true,
-				
+
 			},
 			scales: {
 				xAxes: [{
@@ -91,42 +76,42 @@ d3.csv('data 2.csv').then(function(rows) {
 					},
 					gridLines: {
 						display: SHOW_GRID,
-						
+
 					},
 					ticks: {
 						callback: function (value, index, values) {
 							return POINT_X_PREFIX + value.toLocaleString();
 						}
 					}
-					}],
-					yAxes: [{
+				}],
+				yAxes: [{
 					scaleLabel: {
 						display: true,
 						labelString: Y_AXIS
 					},
 					gridLines: {
 						display: SHOW_GRID,
-						
+
 					},
 					ticks: {
 						callback: function (value, index, values) {
 							return POINT_Y_PREFIX + value.toLocaleString();
 						}
 					}
-					}]
+				}]
 			},
 			tooltips: {
 				displayColors: false,
 				callbacks: {
 					title: function (tooltipItem, all) {
 						return [
-		                all.datasets[tooltipItem[0].datasetIndex].data[tooltipItem[0].index].name, all.datasets[tooltipItem[0].datasetIndex].data[tooltipItem[0].index].description, ]
+							all.datasets[tooltipItem[0].datasetIndex].data[tooltipItem[0].index].name, all.datasets[tooltipItem[0].datasetIndex].data[tooltipItem[0].index].description,]
 					},
-						label: function (tooltipItem, all) {
+					label: function (tooltipItem, all) {
 						return [
-		                X_AXIS + ': ' + POINT_X_PREFIX + tooltipItem.xLabel.toLocaleString(), 'Score' + ': ' + POINT_Y_PREFIX + tooltipItem.yLabel.toLocaleString(), 'Analysis: ' + ((tooltipItem.xLabel / tooltipItem.yLabel) * 1).toFixed(2)
-			
-			              ]
+							X_AXIS + ': ' + POINT_X_PREFIX + tooltipItem.xLabel.toLocaleString(), 'Score' + ': ' + POINT_Y_PREFIX + tooltipItem.yLabel.toLocaleString(), 'Analysis: ' + ((tooltipItem.xLabel / tooltipItem.yLabel) * 1).toFixed(2)
+
+						]
 					}
 				}
 			}
